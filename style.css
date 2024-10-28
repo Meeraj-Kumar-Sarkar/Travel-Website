@@ -1,0 +1,112 @@
+body{
+    background: url(alenAlex234x78u.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.navBar{
+    font-size: 19px;
+    padding-left: 23%;
+    margin: 0px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.055);
+    display: flex;
+}
+
+.navBar a{
+    color: black;
+    text-decoration: none;
+    font-family: "Playwrite GB S", cursive;
+    /* font-optical-sizing: auto; */
+    font-weight: 100;
+    font-style: normal;
+}
+
+.navBar #list-1 a{
+    color: rgb(0, 0, 0);
+    text-decoration: dotted;
+}
+.navBar #list-1 a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(106, 106, 106);
+    transition: .75s;
+}
+.navBar #list-2 a:hover{
+    color: red;
+    transition: .75s;
+    text-shadow: 1px 1px 1px rgb(165, 0, 0);
+}
+.navBar #list-3 a:hover{
+    color: rgb(0, 185, 0);
+    text-shadow: 1px 1px 1px rgb(0, 140, 0);
+    transition: .75s;
+}
+.navBar #list-4 a:hover{
+    color: rgb(0, 0, 205);
+    text-shadow: 1px 1px 1px rgb(0, 0, 154);
+    transition: .75s;
+}
+.navBar #list-5 a:hover{
+    color: rgb(255, 119, 0);
+    text-shadow: 1px 1px 1px rgb(188, 88, 0);
+    transition: .75s;
+}
+.navBar #list-6 a:hover{
+    color: indigo;
+    text-shadow: 1px 1px 1px rgb(59, 0, 102);
+    transition: .75s;
+}
+
+a.tooltip {
+    position: relative;
+    text-decoration: none;
+}
+  
+a.tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.60s ease;
+    pointer-events: none;
+}
+  
+a.tooltip:hover::after {
+    opacity: 1;
+}
+
+.middleMan #headingField ,#headingGround, #headingDetail{
+    text-align: center;
+}
+
+#headingField{
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 250;
+    margin-top: 25px;
+    margin-bottom: 4px;
+    font-size: 75px;
+}
+
+#headingGround{
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 100;
+    font-size: 32px;
+    margin: 5px;
+    padding: 0px;
+}
+
+#headingDetail{
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 8px 223px 8px;
+    margin: 0px;
+}
