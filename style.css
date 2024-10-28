@@ -111,20 +111,18 @@ a.tooltip:hover::after {
     margin: 0px;
 }
 
-/* Mobile Styles */
-@media (max-width: 768px) {  /* Adjusts layout for screens up to 768px wide */
-    .section {
-      height: 400px;  /* Reduce height for smaller screens */
-    }
-  
-    /* Optional: Style adjustments for images on mobile */
-    .image-section img {
-      height: auto;         /* Allow the image to scale proportionally */
-      max-height: 400px;    /* Ensure images don’t become too large */
-    }
-  
-    /* Optional: Add padding/margins for better readability on smaller screens */
-    .white-space {
-      padding: 20px;        /* Adjust padding in white spaces */
-    }
+@media (max-width: 768px) {
+  .navBar {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
   }
+
+  #headingField {
+    font-size: 2rem;
+  }
+
+  #headingGround {
+    font-size: 1.2rem;
+  }
+}
