@@ -110,3 +110,21 @@ a.tooltip:hover::after {
     padding: 8px 223px 8px;
     margin: 0px;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {  /* Adjusts layout for screens up to 768px wide */
+    .section {
+      height: 400px;  /* Reduce height for smaller screens */
+    }
+  
+    /* Optional: Style adjustments for images on mobile */
+    .image-section img {
+      height: auto;         /* Allow the image to scale proportionally */
+      max-height: 400px;    /* Ensure images don’t become too large */
+    }
+  
+    /* Optional: Add padding/margins for better readability on smaller screens */
+    .white-space {
+      padding: 20px;        /* Adjust padding in white spaces */
+    }
+  }
