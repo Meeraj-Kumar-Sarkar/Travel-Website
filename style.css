@@ -111,7 +111,7 @@ a.tooltip:hover::after {
     margin: 0px;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .navBar {
     flex-direction: column;
     gap: 10px;
@@ -126,3 +126,4 @@ a.tooltip:hover::after {
     font-size: 1.2rem;
   }
 }
+*/
